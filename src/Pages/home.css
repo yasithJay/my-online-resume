@@ -1,0 +1,51 @@
+.omeImg {
+    width: 100%;
+}
+
+.con {
+    position: relative;
+    color: white;
+    text-align: center;
+}
+
+.hello {
+    position: absolute;
+    top: 40%;
+    left: 20%;
+}
+
+.hello h1 {
+    font-size: 6vw;
+}
+
+.hello h3 {
+    font-size: 3vw;
+}
+.hello p {
+    font-size: 1.25vw;
+}
+
+#first {
+    font-size: 3vw;
+    font-weight:bolder;
+    color: rgb(255, 171, 44);
+}
+
+#slash {
+    font-size: 3vw;
+    font-weight:bolder;
+    color: rgb(51, 255, 44);
+}
+
+#second {
+    font-size: 3vw;
+    font-weight:bolder;
+    color: rgb(255, 34, 144);
+}
+
+.about {
+    background-color: rgb(219, 219, 219);
+    color: black;
+    font-weight: bold;
+    
+}

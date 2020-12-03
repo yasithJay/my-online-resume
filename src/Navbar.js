@@ -74,13 +74,13 @@ export default class Navbar extends Component {
         return (
             <React.Fragment>
             <Router>
-            <div className="navbar navbar-expand-lg navbar-dark bg-dark text-white">
+            <div className="navbar navbar-expand-lg navbar-dark bg-dark text-white ">
             <div className="container">
               <NavLink class="navbar-brand" to="/">
                 Navbar
               </NavLink>
               <button
-                className="navbar-toggler"
+                className="navbar-toggler animate__animated animate__backInDown"
                 type="button"
                 onClick={this.toggleNav}
 
@@ -102,7 +102,7 @@ export default class Navbar extends Component {
                 </li>
                 <li className="nav-item">
                   <NavLink className="nav-link" to="/contact" exact activeStyle={{ color: "#787672" }}>
-                    Second
+                    Contact
                   </NavLink>
                 </li>
               </ul>
