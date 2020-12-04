@@ -1,15 +1,23 @@
 import React, { useEffect } from 'react'
-import image from '../Images/home1.jpg';
-import banner from '../Images/propic.jpg';
+import image from '../Images/home.jpg';
+import banner from '../Images/profile.jpg';
 import './home.css';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import 'bootstrap/dist/css/bootstrap.min.css'
+import WOW from 'wowjs';
+import Intro from '../Components/homeIntro'
+
+
 
 
 export default function Home() {
+    
 
     useEffect(()=>{
         AOS.init({duration :4000});
+        
+        
     },[]);
     
         const propic = {
@@ -26,23 +34,43 @@ export default function Home() {
                     <p className="animate__animated animate__fadeInUp animate__delay-2s"><span id="first" className="animate__animated animate__bounceInUp">{'<'}</span>full stack web-developer , Photographer<span id="slash" className="animate__animated animate__bounceInUp animate__delay-3s">{'/'}</span><span id="second" className="animate__animated animate__bounceInUp">{'>'}</span></p>
                     </div>
                 </div>
-                <br/>
-                <br/>
-                <br/>
+                
+               
+                
                 <div className="container-fluid about">
                 <div className="container">
-                    <div className="row">
-                        <div id="propic" className="col-sm-6">
-                            <img src={banner} alt="" style={propic} data-aos="fade-up"/>
-                        </div>
-                        <div className="col-sm-6" >
-                            <h3 data-aos="ease-in">My Passion and focus is Full stack Web Development.</h3>
-                            <p>You need a website that looks amazing and actually works fine. Bottom line, That's what I do. And if you want to learn more about working with me contact me without further due.</p>
+                    <Intro/>
+                </div>
+                </div>
+                
+                <div className="con2">
+                    <div className="con2-content container">
+                        <h1>Understanding My Passion</h1>
+                        <br/>
+                        <p>I am a hardworking and ambitious
+                        individual with a great passion towards IT
+                        industry. I have strong technical skills as
+                        well as excellent inter personal skills which
+                        enabling me to interact with a wide range
+                        of people. I am eager to be challenged in
+                        order to grow and further improve my IT
+                        skills. I am seeing a position in the industry
+                        in which I can put into practice my
+                        knowledge and experience, ultimately
+                        benefiting the operations of the
+                        organization that I work for. I am
+                        interested in the fields of Web application
+                        development, front-end development,
+                        back-end development and Software
+                        quality assurance.</p>
+                        <div className='buttonContainer'>
+                        <a href='/about'><button className='linkBtn'>
+                           Learn More About Me</button></a>
+                            
                         </div>
                     </div>
+                    
                 </div>
-                </div>
-
                 
             </React.Fragment>
         )
