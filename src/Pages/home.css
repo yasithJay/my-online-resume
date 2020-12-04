@@ -1,5 +1,13 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Tangerine:wght@700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu+Mono&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
 .omeImg {
     width: 100%;
 }
@@ -11,6 +19,10 @@
     text-align: center;
 }
 
+.skills {
+    font-size: 2vw;
+    font-family: 'Ubuntu Mono', monospace;
+}
 .hello {
     position: absolute;
     top: 40%;
@@ -55,11 +67,16 @@
     
 }
 
+/* home Intro */
+
 .description {
     margin: auto;
     text-align: center;
+    font-family: 'Raleway', sans-serif;
 }
 
+
+/* Home Passion */
 .con2 {
     background-color: rgb(34, 34, 36);
     color:  white;
@@ -81,11 +98,13 @@
 }
 
 .linkBtn {
-    padding: 10px;
+    padding: 1em 3em 1em 3em;
     border-style: solid;
     background-color: transparent;
+    font-family: 'Raleway', sans-serif;
     border-color: tomato;
     color: white;
+    text-decoration: none !important;
 }
 
 .buttonContainer {
@@ -109,7 +128,7 @@
 }
 
 .contactBtn {
-    padding: 10px;
+    padding: 1em 3em 1em 3em;
     border-style: solid;
     background-color: transparent;
     border-color: tomato;
@@ -119,4 +138,154 @@
 .contactBtn:hover {
     background-color: tomato;
     color: white;
+}
+
+
+/* Projecrs */
+
+.project {
+    padding-top: 40px;
+    background-color: rgb(255, 255, 255);
+    text-align: center;
+    padding-bottom: 40px;
+}
+
+.projectImage {
+    max-width: 100% ;
+    filter: brightness(80%);
+}
+
+.projectImage:hover {
+    background-color: black;
+    filter: brightness(40%);
+}
+
+.project-title {
+    padding: 30px;
+}
+
+.project-card {
+    position: relative;
+    text-align: center;
+    padding-bottom: 10px;
+    margin-top: 10px;
+}
+
+.projectName {
+    font-size: 1em;
+    font-family: 'Ubuntu Mono', monospace;
+}
+
+.card-inner {
+   max-width: 350px;
+    position: absolute;
+    top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+    color: white;
+  opacity: 0.5;
+  /* transition effect. not necessary */
+  
+  visibility: hidden;
+  
+  
+}
+
+
+.card-inner p {
+    margin-bottom: 0;
+}
+
+.project-card:hover .card-inner {
+    visibility: visible;
+    opacity: 1;
+}
+
+.cardbtn {
+    margin-top: 10px;
+    border-style: solid;
+    border-color: white;
+    color: white;
+    padding: 1em 3em 1em 3em;
+    background-color: transparent;
+    text-decoration: none !important;
+}
+
+
+.cardbtn:hover {
+    color: black;
+    background-color: white;
+}
+
+
+
+
+/* Photo Gallery */
+
+.galleryContainer {
+    margin-top: 20px;
+    border-top: 50px;
+    border-bottom: 50px;
+    padding: 20px;
+    background-color: rgb(235, 235, 235);
+    text-align: center;
+}
+.gallery-title {
+    padding: 30px;
+    text-align: center;
+}
+
+.gallery-title h1 {
+    border-top: 20px !important;
+}
+
+/* Help */
+
+.help {
+    background-color: darkgrey;
+    position: relative;
+    text-align: center;
+}
+
+.helpImage {
+    max-width: 100%;
+}
+
+.ask {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    
+}
+
+.ask h1 {
+    font-size: 4.5vw;
+}
+
+.helpBtn {
+    text-decoration: none !important;
+    color: white;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 1em;
+    
+    border-style: solid;
+    border-color: tomato;
+    background-color: transparent;
+    padding: 1vw 3vw 1vw 3vw;
+}
+
+.helpBtn:hover {
+    color: black;
+    background-color: tomato;
+}
+
+.footer {
+    padding-top: 30px;
+    background-color: rgb(54, 54, 54);
+    color: white;
+    font-size: 0.5vw;
+    text-align: center;
 }

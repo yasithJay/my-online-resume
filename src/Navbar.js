@@ -22,54 +22,7 @@ export default class Navbar extends Component {
     
     render() {
         const { showNav } = this.state;
-
-
-// const routing = (
-//     <Router>
-//       <div className="navbar navbar-expand-lg navbar-dark bg-dark text-white">
-//         <a class="navbar-brand" href="#">
-//           Navbar
-//         </a>
-//         <button
-//           className="navbar-toggler"
-//           type="button"
-//           data-toggle="collapse"
-//           data-target="#navbarSupportedContent"
-//           aria-controls="navbarSupportedContent"
-//           aria-expanded="false"
-//           aria-label="Toggle navigation"
-//         >
-//           <span className="navbar-toggler-icon"></span>
-//         </button>
-  
-//         <div className="collapse navbar-collapse" id="navbarSupportedContent">
-//         <ul className="navbar-nav mr-auto">
-//           <li className="nav-item">
-//             <NavLink className="nav-link" to="/" exact activeStyle={{ color: "#787672" }}>
-//               Home
-//             </NavLink>
-//           </li>
-//           <li className="nav-item">
-//             <NavLink className="nav-link" to="/about" exact activeStyle={{ color: "#787672" }}>
-//               About
-//             </NavLink>
-//           </li>
-//           <li className="nav-item">
-//             <NavLink className="nav-link" to="/contact" exact activeStyle={{ color: "#787672" }}>
-//               Second
-//             </NavLink>
-//           </li>
-//         </ul>
-//         </div>
-//       </div>
-//       <Switch>
-//         <Route exact path="/" component={Home} />
-//         <Route path="/about" component={About} />
-//         <Route path="/contact" component={Contact} />
-//       </Switch>
-//     </Router>
-//   );
-  
+                                 
 
         return (
             <React.Fragment>
@@ -83,7 +36,7 @@ export default class Navbar extends Component {
                 className="navbar-toggler animate__animated animate__backInDown"
                 type="button"
                 onClick={this.toggleNav}
-
+                style={{borderColor:"tomato"}}
               >
                 <span className="navbar-toggler-icon"></span>
               </button>
