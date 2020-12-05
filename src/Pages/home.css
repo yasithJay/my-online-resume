@@ -171,6 +171,7 @@
 
 .project-title {
     padding: 30px;
+    font-family: 'Quicksand', sans-serif !important;
 }
 
 .project-card {
@@ -240,8 +241,10 @@
     text-align: center;
 }
 .gallery-title {
+    color: white;
     padding: 30px;
     text-align: center;
+    font-family: 'Quicksand', sans-serif !important;
 }
 
 .row {

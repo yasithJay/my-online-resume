@@ -3,6 +3,9 @@ import cover from '../Images/aboutCover.jpg';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './about.css';
 import AboutFacts from '../Components/AboutFacts';
+import Instafeed from '../Components/Instafeed';
+import AboutDone from '../Components/AboutDone';
+import Footer from '../Components/Footer'
 
 export default class About extends Component {
     render() {
@@ -15,7 +18,18 @@ export default class About extends Component {
 
                 <div>
                     <AboutFacts/>
+                </div>
 
+                <div>
+                    <Instafeed/>
+                </div>
+
+                <div>
+                    <AboutDone/>
+                </div>
+
+                <div>
+                    <Footer/>
                 </div>
 
             </React.Fragment>

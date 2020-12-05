@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&display=swap');
+
 .cover {
     position: relative;
 }
@@ -18,4 +22,86 @@
 
 .facts-container {
     background-color: rgb(236, 236, 236);
+    padding-top: 50px;
+    text-align: center;
+}
+
+.facts {
+    margin: auto;
+    text-align: center;
+   
+}
+
+.facts h2 {
+    font-size: 2rem;
+    font-family: 'Merriweather', serif;
+}
+
+.facts p {
+    font-size: 1rem;
+}
+
+.galleryContainer {
+    margin-top: 0;
+    background-color: rgb(99, 99, 99);
+}
+
+.galleryimg {
+    width: 100%;
+}
+
+.gallery_title {
+    text-align: center;
+    padding: 20px;
+    color: white !important;
+    font-family: 'Quicksand', sans-serif !important;
+}
+
+.account-links {
+    padding: 1em 3em 1em 3em;
+    border-style: solid;
+    background-color: transparent;
+    font-family: 'Raleway', sans-serif;
+    border-color: tomato;
+    color: white;
+    text-decoration: none !important;
+    margin: auto;
+}
+
+.account-links:hover {
+    border-color: black;
+    background-color: black;
+    color: tomato;
+}
+
+.buttons {
+    text-align: center !important;
+}
+
+.done {
+    padding: 5em;
+    background-color: white;
+    text-align: center;
+}
+.done h1 {
+    font-family: 'Quicksand', sans-serif !important;
+}
+
+.done p{
+    padding: 2em;
+}
+
+.done a {
+    text-decoration: none;
+    font-family: 'Quicksand', sans-serif !important;
+    border-style: solid;
+    border-color: tomato;
+    padding: 1vw 3vw 1vw 3vw;
+    background-color: transparent;
+    color: black;
+}
+
+.done a:hover {
+    background-color: tomato;
+    color: black;
 }
