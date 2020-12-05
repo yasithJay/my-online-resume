@@ -5,7 +5,8 @@ import './about.css';
 import AboutFacts from '../Components/AboutFacts';
 import Instafeed from '../Components/Instafeed';
 import AboutDone from '../Components/AboutDone';
-import Footer from '../Components/Footer'
+import Footer from '../Components/Footer';
+
 
 export default class About extends Component {
     render() {
