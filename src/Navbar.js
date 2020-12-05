@@ -5,6 +5,8 @@ import Home from './Pages/Home';
 import About from './Pages/About';
 import Contact from './Pages/Contact';
 import Resume from './Pages/Resume';
+
+import logo from './Images/yasith.png';
 import { Component} from 'react';
 
 
@@ -31,7 +33,7 @@ export default class Navbar extends Component {
             <div className="navbar navbar-expand-lg navbar-dark bg-dark text-white ">
             <div className="container">
               <NavLink class="navbar-brand" to="/">
-                Navbar
+                <img className="logo" src={logo} alt=""/>
               </NavLink>
               <button
                 className="navbar-toggler animate__animated animate__backInDown"
@@ -43,7 +45,7 @@ export default class Navbar extends Component {
               </button>
         
               <div className={(showNav ? 'show' : '') + ' collapse navbar-collapse'} id="navbarSupportedContent">
-              <ul className="navbar-nav mr-auto">
+              <ul className="navbar-nav ml-auto">
                 <li className="nav-item">
                   <NavLink className="nav-link" to="/" exact activeStyle={{ color: "white" }}>
                     Home

@@ -12,6 +12,11 @@
     width: 100%;
 }
 
+.logo {
+    max-width: 6em;
+}
+
+
 .con-image {
     width: 100%;
     max-width: 1519.2px;
