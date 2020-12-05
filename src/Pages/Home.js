@@ -30,7 +30,7 @@ export default function Home() {
                     <img className="con-image" src={image} alt=""/>
                     <div className="hello"><h1 className="animate__animated animate__bounce animate__slower	2s animate__flipInX animate__infinite infinite">Hello!</h1>
                     <h3 className="animate__animated animate__bounceInLeft animate__delay-1s">I'm Yasith Jayanaka</h3>
-                    <p className=" skills animate__animated animate__fadeInUp animate__delay-2s"><span id="first" className="animate__animated animate__bounceInUp">{'<'}</span>full stack web-developer , Photographer<span id="slash" className="animate__animated animate__bounceInUp animate__delay-3s">{'/'}</span><span id="second" className="animate__animated animate__bounceInUp">{'>'}</span></p>
+                    <h5 className=" skills animate__animated animate__fadeInUp animate__delay-2s"><span id="first" className="animate__animated animate__bounceInUp">{'<'}</span>full stack web-developer , Photographer<span id="slash" className="animate__animated animate__bounceInUp animate__delay-3s">{'/'}</span><span id="second" className="animate__animated animate__bounceInUp">{'>'}</span></h5>
                     </div>
                 </div>
                 

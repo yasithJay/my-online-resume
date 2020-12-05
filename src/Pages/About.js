@@ -1,10 +1,23 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
+import cover from '../Images/aboutCover.jpg';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import './about.css';
+import AboutFacts from '../Components/AboutFacts';
 
 export default class About extends Component {
     render() {
         return (
             <React.Fragment>
-                <h1>About</h1>
+                <div className="cover">
+                <img className="coverImage" src={cover} alt=""/>
+                    <h1 className="cover-title">My Passions and Personality</h1>
+                </div>
+
+                <div>
+                    <AboutFacts/>
+
+                </div>
+
             </React.Fragment>
         )
     }
