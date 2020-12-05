@@ -15,23 +15,24 @@ export default class PhotoGallery extends Component {
     render() {
         return (
             <React.Fragment>
-                <div className='galleryContainer'>
+                <div className='galleryContainer  wow bounceInUp' data-wow-delay="0.4s" >
                     <div className="container">
                     <div className='gallery-title'>
                         <h1>My life as a Undergraduate Developer and a Photographer</h1>
                     </div>
                         <div className="row">
                         
-                            <div className="gallery-image col-md-3 col-sm-6 col-xs-6">
-                                <img src={image1} alt=""/>
+                            <div className="gallery-image col-md-3 col-sm-6 col-xs-6 wow flipInX" data-wow-delay="0.5s">
+                                <img  src={image1} alt=""/>
                             </div>
-                            <div className="gallery-image col-md-3 col-sm-6 col-xs-6"><img src={image4} alt=""/></div>
-                            <div className="gallery-image col-md-3 col-sm-6 col-xs-6"><img src={image2} alt=""/></div>
-                            <div className="gallery-image col-md-3 col-sm-6 col-xs-6"><img src={image6} alt=""/></div>
-                            <div className="gallery-image col-md-3 col-sm-6 col-xs-6"><img src={image5} alt=""/></div>
-                            <div className="gallery-image col-md-3 col-sm-6 col-xs-6"><img src={image3} alt=""/></div>
-                            <div className="gallery-image col-md-3 col-sm-6 col-xs-6"><img src={image7} alt=""/></div>
-                            <div className="gallery-image col-md-3 col-sm-6 col-xs-6"><img src={image8} alt=""/></div>
+                            <div className="gallery-image col-md-3 col-sm-6 col-xs-6 wow bounceIn" data-wow-delay="0.5s">
+                                <img src={image4} alt=""/></div>
+                            <div className="gallery-image col-md-3 col-sm-6 col-xs-6 wow fadeInLeft" data-wow-delay="0.5s"><img src={image2} alt=""/></div>
+                            <div className="gallery-image col-md-3 col-sm-6 col-xs-6 wow bounceInDown" data-wow-delay="0.5s"><img src={image6} alt=""/></div>
+                            <div className="gallery-image col-md-3 col-sm-6 col-xs-6 wow fadeInUp" data-wow-delay="0.5s"><img src={image5} alt=""/></div>
+                            <div className="gallery-image col-md-3 col-sm-6 col-xs-6 wow flipInY" data-wow-delay="0.5s"><img src={image3} alt=""/></div>
+                            <div className="gallery-image col-md-3 col-sm-6 col-xs-6 wow bounceInUp" data-wow-delay="0.5s"><img src={image7} alt=""/></div>
+                            <div className="gallery-image col-md-3 col-sm-6 col-xs-6 wow flipInX" data-wow-delay="0.5s"><img src={image8} alt=""/></div>
                            
                         </div>
                     </div>

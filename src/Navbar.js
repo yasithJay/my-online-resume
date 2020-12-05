@@ -4,6 +4,7 @@ import ReactDOM from 'react-dom';
 import Home from './Pages/Home';
 import About from './Pages/About';
 import Contact from './Pages/Contact';
+import Resume from './Pages/Resume';
 import { Component} from 'react';
 
 
@@ -44,18 +45,23 @@ export default class Navbar extends Component {
               <div className={(showNav ? 'show' : '') + ' collapse navbar-collapse'} id="navbarSupportedContent">
               <ul className="navbar-nav mr-auto">
                 <li className="nav-item">
-                  <NavLink className="nav-link" to="/" exact activeStyle={{ color: "#787672" }}>
+                  <NavLink className="nav-link" to="/" exact activeStyle={{ color: "white" }}>
                     Home
                   </NavLink>
                 </li>
                 <li className="nav-item">
-                  <NavLink className="nav-link" to="/about" exact activeStyle={{ color: "#787672" }}>
+                  <NavLink className="nav-link" to="/about" exact activeStyle={{ color: "white" }}>
                     About
                   </NavLink>
                 </li>
                 <li className="nav-item">
-                  <NavLink className="nav-link" to="/contact" exact activeStyle={{ color: "#787672" }}>
+                  <NavLink className="nav-link" to="/contact" exact activeStyle={{ color: "white" }}>
                     Contact
+                  </NavLink>
+                </li>
+                <li className="nav-item">
+                  <NavLink className="nav-link" to="/resume" exact activeStyle={{ color: "white" }}>
+                    Resume
                   </NavLink>
                 </li>
               </ul>
@@ -66,6 +72,7 @@ export default class Navbar extends Component {
               <Route exact path="/" component={Home} />
               <Route exact path="/about" component={About} />
               <Route exact path="/contact" component={Contact} />
+              <Route exact path="/resume" component={Resume} />
             </Switch>
           </Router>
             </React.Fragment>

@@ -12,6 +12,10 @@
     width: 100%;
 }
 
+.con-image {
+    width: 100%;
+    max-width: 1519.2px;
+}
 .con {
     position: relative;
     color: white;
@@ -81,7 +85,7 @@
     background-color: rgb(34, 34, 36);
     color:  white;
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif !important;
+    font-family: 'Quicksand', sans-serif !important;
 }
 
 .con2-content {
@@ -235,8 +239,22 @@
     text-align: center;
 }
 
+.row {
+    padding-bottom: 30px !important;
+}
+
 .gallery-title h1 {
     border-top: 20px !important;
+}
+
+.gallery-image {
+    transition: transform .2s;
+}
+
+
+.gallery-image:hover {
+    
+    transform: scale(1.2);
 }
 
 /* Help */
@@ -282,10 +300,78 @@
     background-color: tomato;
 }
 
+/* Footer Component */
+
 .footer {
     padding-top: 30px;
-    background-color: rgb(54, 54, 54);
+    background-color: rgb(34, 34, 34);
     color: white;
     font-size: 0.5vw;
     text-align: center;
+}
+
+.footer h2 {
+    font-family: 'Quicksand', sans-serif;
+}
+
+.footer-nav a{
+    padding-top: 30px;
+    padding-bottom: 20px;
+    font-size:3vmin;
+   color : white;
+   font-family: 'Quicksand', sans-serif;
+}
+
+.footer-nav a:hover {
+    color: tomato;
+   
+}
+
+.horizontal {
+    margin-top: 10px;
+    background-color: tomato;
+    opacity: 0.7;
+    width: 70%;
+    height: 0.1em;
+}
+
+.photographyLink {
+    color: tomato;
+    
+}
+
+.rights {
+    margin-bottom: 0;
+    padding :20px;
+    font-size: 1.75em;
+}
+
+.photographyLink:hover {
+    color: rgb(214, 59, 31);
+}
+
+.accounts {
+    width: 3em;
+    height: auto;  
+}
+
+.accounts:hover {
+    filter: brightness(50%);
+}
+.accountsContainer {
+    padding-bottom: 40px;
+}
+
+.accountsContainer span {
+    padding :1em;
+}
+
+
+.AccountLink {
+    color: white;
+}
+
+.AccountLink:hover {
+    color: white;
+    filter: brightness(50%);
 }
