@@ -322,15 +322,15 @@
     font-family: 'Quicksand', sans-serif;
 }
 
-.footer-nav a{
-    padding-top: 30px;
-    padding-bottom: 20px;
+.footer-btn{
+    background-color: transparent;
+    border-color: transparent;
     font-size:3vmin;
    color : white;
    font-family: 'Quicksand', sans-serif;
 }
 
-.footer-nav a:hover {
+.footer-btn:hover {
     color: tomato;
    
 }

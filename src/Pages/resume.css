@@ -70,7 +70,7 @@
 
 .hireMsgBtn {
     text-decoration: none !important;
-    color: tomato;
+    color: tomato !important;
     border-style: solid;
     border-color: tomato;
     padding: 0.5vw 3vw 0.5vw 3vw;

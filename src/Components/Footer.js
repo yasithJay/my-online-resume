@@ -2,6 +2,10 @@ import React, { Component } from 'react';
 import '../Pages/home.css';
 import WOW from 'wowjs';
 import { FaFacebook, FaInstagram ,FaLinkedin, FaGithub, FaEnvelope} from "react-icons/fa";
+import HomeBtn from './HomeBtn';
+import AboutBtn from './ToAboutBtn';
+import ContactBtn from './ContactBtn';
+import ViewResume from './ViewResumeBtn';
 
 export default class Footer extends Component {
     render() {
@@ -14,10 +18,20 @@ export default class Footer extends Component {
                       
 
                         <div className='row'>
-                            <div className='col-md-3 col-sm-3 footer-nav'><a href="/home" style={{textDecoration:'none'}}>Home</a></div>
-                            <div className='col-md-3 col-sm-3 footer-nav'><a href="/about"  style={{textDecoration:'none'}}>About</a></div>
-                            <div className='col-md-3 col-sm-3 footer-nav'><a href="/contact"  style={{textDecoration:'none'}}>Contact</a></div>
-                            <div className='col-md-3 col-sm-3 footer-nav'><a href="/resume"  style={{textDecoration:'none'}}>Resume</a></div>
+                            <div className='col-md-3 col-sm-3 footer-nav'>
+                            
+                            <HomeBtn  className="footer-btn" value="Home"/>
+                            
+                            </div>
+                            <div className='col-md-3 col-sm-3 footer-nav'>
+                                <AboutBtn className="footer-btn" value="About"/>
+                            </div>
+                            <div className='col-md-3 col-sm-3 footer-nav'>
+                                <ContactBtn className="footer-btn" value="Contact"/>
+                            </div>
+                            <div className='col-md-3 col-sm-3 footer-nav'>
+                                <ViewResume className="footer-btn" value="Resume"/>
+                            </div>
 
                         </div>
                         

@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import WOW from "wowjs";
 import "bootstrap/dist/css/bootstrap.min.css";
+import AboutBtn from './ToAboutBtn';
 
 export default class Passion extends Component {
   render() {
@@ -25,11 +26,9 @@ export default class Passion extends Component {
               development and Software quality assurance.
             </p>
             <div className="buttonContainer">
-              <a href="/about">
-                <button className="linkBtn wow slideInUp" data-wow-delay="0.5s">
-                  Learn More About Me
-                </button>
-              </a>
+              
+                <AboutBtn className="linkBtn wow slideInUp" value="Learn More About Me"/>
+
             </div>
           </div>
         </div>
