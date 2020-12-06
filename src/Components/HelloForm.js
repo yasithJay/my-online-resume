@@ -1,10 +1,13 @@
 import React, { Component } from 'react';
 import { FaFacebook, FaInstagram ,FaLinkedin, FaEnvelope} from "react-icons/fa";
+
+import WOW from 'wowjs';
+
 export default class HelloForm extends Component {
      render() {
          return (
              <React.Fragment>
-                 <div className="social">
+                 <div className="social wow fadeInUp" data-wow-delay="0.4s">
                     <div className="container">
                         <div className="row">
                             <div className="col-md-3">
@@ -26,5 +29,10 @@ export default class HelloForm extends Component {
                  </div>
              </React.Fragment>
          )
+     }
+     componentDidMount() {  
+        new WOW.WOW({
+            live: false
+        }).init();  
      }
 }

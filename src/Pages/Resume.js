@@ -11,6 +11,7 @@ import ResumeActivities from '../Components/ResumeActivities';
 import ResumeEdu from '../Components/ResumeEdu';
 import ResumeHire from '../Components/ResumeHire';
 import Footer from '../Components/Footer';
+import WOW from 'wowjs';
 
 export default class Resume extends Component {
     render() {
@@ -18,8 +19,8 @@ export default class Resume extends Component {
             <React.Fragment>
             <div className="resumeCover">
             <img className="resumeCoverimg" src={coverImg} alt=""/>
-            <h1 className="resumeCovertitle">Dig little deep.</h1>
-            <a className="resumeDownload" href={cv}>Download resume   <FaArrowRight/></a>
+            <h1 className="resumeCovertitle wow fadeInRight" data-wow-delay="0.4s">Dig little deep.</h1>
+            <a className="resumeDownload wow fadeInRight" data-wow-delay="0.2s" href={cv}>Download resume   <FaArrowRight/></a>
             </div>
 
             <div>
@@ -48,4 +49,9 @@ export default class Resume extends Component {
             </React.Fragment>
         )
     }
+    componentDidMount() {  
+        new WOW.WOW({
+            live: false
+        }).init();  
+     }
 }
