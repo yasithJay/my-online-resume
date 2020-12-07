@@ -14,9 +14,9 @@ export default class Passion extends Component {
             </h1>
             <br />
             <p className="wow bounceInUp" data-wow-delay="0.7">
-              I am a hardworking and ambitious individual with a great passion
+              I am a hardworking and an ambitious individual with a great passion
               towards IT industry. I have strong technical skills as well as
-              excellent inter personal skills which enabling me to interact with
+              excellent inter personal skills which enable me to interact with
               a wide range of people. I am eager to be challenged in order to
               grow and further improve my IT skills. I am seeing a position in
               the industry in which I can put into practice my knowledge and

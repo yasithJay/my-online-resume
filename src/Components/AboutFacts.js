@@ -18,7 +18,7 @@ export default class AboutFacts extends Component {
                             </div>
                             <div className="col-lg-6 facts wow fadeInRight" data-wow-delay="0.5s">
                                 <h2>Some facts about me.</h2>
-                                <p>I am a flexible and experienced Web developer with excellent time management skills.I am always enthusiastic to learn and undertake new challenges.I am a good timekeeper, always willing to learn new skills. I am friendly, helpful and polite. I am a good communicator with proven inter personal skills and am used to working in a team whilst also being capable of using own initiative.
+                                <p>I am a flexible and experienced Web developer with excellent time management skills.I am always enthusiastic to learn and undertake new challenges.I am a good timekeeper, always willing to learn new skills. I am friendly, helpful and polite. I am a good communicator with proven inter personal skills and I am used to working in a team whilst also being capable of using own initiative.
                                 </p>
                             </div>
                         </div>

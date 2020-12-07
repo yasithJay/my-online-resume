@@ -18,7 +18,7 @@ export default class PhotoGallery extends Component {
                 <div className='galleryContainer  wow bounceInUp' data-wow-delay="0.4s" >
                     <div className="container">
                     <div className='gallery-title'>
-                        <h1>My life as a Undergraduate Developer and a Photographer</h1>
+                        <h1>My life as an Undergraduate Developer and a Photographer</h1>
                     </div>
                         <div className="row">
                         
